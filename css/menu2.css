@@ -1,0 +1,150 @@
+nav {
+    background-color: #2d2d2d;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 3px;
+    width: 1360px;
+    font-size: 18px; 
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;     
+}
+
+.menu-li-01{
+    width: 130px;
+    margin: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-left: 0; 
+}
+
+.menu-li-02{
+    width: 130px;
+    margin: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-left: 0; 
+    background-color: blue;
+}
+
+/*
+nav ul li {
+    width: 220px;
+    margin: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-left: 0; 
+    background-color: blue;
+}
+
+*/
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+/* Sub menus*/
+.sub-menu-1 {
+    display: none;
+}
+
+.sub-menu-2 {
+    display: none;
+}
+
+.sub-menu-3 {
+    display: none;
+}
+
+/* Sub menus 01*/
+nav ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+}
+
+nav ul li:hover .sub-menu-1 ul {
+    display: block;
+}
+
+nav ul li:hover .sub-menu-1 ul li {
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav ul li:hover .sub-menu-1 ul li:hover {
+    background-color: #025268;
+}
+
+
+
+
+
+/* Sub menus 02*/
+.hover-sub:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    margin-top: -48px;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    margin-left: 200px;
+}
+
+.hover-sub:hover .sub-menu-2 ul {
+    display: block;
+}
+
+.hover-sub:hover .sub-menu-2 ul li {
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.hover-sub:hover .sub-menu-2 ul li:hover {
+    background-color: #025268;
+}
+
+
+
+
+
+
+
+/* Sub menus 03*/
+nav ul li ul li ul li:hover .sub-menu-3 {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    margin-top: -48px;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    margin-left: 200px;
+}
+
+.hover-sub:hover .sub-menu-3 ul {
+    display: block;
+}
+
+.hover-sub:hover .sub-menu-3 ul li {
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.hover-sub:hover .sub-menu-3 ul li:hover {
+    background-color: #025268;
+}
+
+
+/* Sub menus*/

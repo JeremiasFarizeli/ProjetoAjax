@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    background-color: #E0FFFF;
+    /* #603494 Roxo do logo da DXC*/
+    font-family: Verdana, sans-serif;
+    width: 100%;
+}
+
+input {
+    padding-left: 5px;
+}
+
+/************************************** Inicio CSS Menu ************************************************/
+
+
+
+
+
+
+
+/************************************** Fim CSS Menu ************************************************/
+
+/*  Largura total da página é 1360px  com margin auto
+    sendo 500px + 10px + 850px  
+*/
+
+.dxc-imagem-homePage {
+    width: 1360px;
+    height: 610px;
+    border-radius: 20px;
+}
+
+
+#dxc-container-centro {
+    align-items: center;
+    justify-content: center;
+    width: 1360px;
+    margin: auto;
+}
+
+.dxc-card-left {
+    background-color: #B0C4DE;
+    /* #8a2be2*/
+    /*background-image: url(../imagem/1623243631355.jpg);  */
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    width: 500px;
+    height: 610px;
+}
+
+.dxc-card-right {
+    background-color: #B0C4DE;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-left: 10px;
+    color: #c8d2df;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
+    width: 850px;
+    height: 610px;
+}
+
+.dxc-input-text {
+    height: 40px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+        /*#1B2531*/
+    ;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.dxc-input-text-phones {
+    height: 40px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    color: #c8d2df;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.dxc-input-date {
+    height: 40px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #c8d2df;
+}
+
+.dxc-input-hora {
+    height: 40px;
+    width: 125px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    padding: 0px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #c8d2df;
+}
+
+.dxc-select-tentativas {
+    height: 40px;
+    width: 250px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #c8d2df;
+}
+
+.dxc-label {
+    height: 40px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    color: #c8d2df;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.dxc-label2 {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    color: #c8d2df;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.dxc-label3 {
+    border-radius: 8px;
+    color: #384459;
+    font-size: 18px;
+}
+
+.dxc-input-text-cardRight {
+    height: 60px;
+    width: 100%;
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    color: #c8d2df;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+/************************************** inicio CSS Botão ************************************************/
+.btnGerar {
+    background-color: #2d2d2d;
+    padding: 20px 12px;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 15px;
+    color: #9AAABE;
+}
+
+.btnGerar:hover {
+    cursor: pointer;
+    background-color: #c8d2df;
+    color: #2d2d2d;
+    border-color: #269abc;
+}
+
+.btnGerar-info:hover,
+.btnGerar-info:focus {
+    color: #fff;
+}
+
+/************************************** Fim CSS Botão ************************************************/
+
+.div-texto1 {
+    width: 270px;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.div-texto2 {
+    width: 500px;
+    display: inline-block;
+    
+}
+
+.div-texto3 {
+    width: 780px;
+}
+
+.div-texto4 {
+    width: 780px;
+}
+
+.texto1 {
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 40px;
+    resize: none;
+    display: inline;
+}
+
+.texto2 {
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 80px;
+    resize: none;
+}
+
+.texto3 {
+    background-color:  #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 45px;
+    resize: none;
+}
+
+.texto4 {
+    background-color:  #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 250px;
+    resize: none;
+}
+
+.copyButton {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #2d2d2d;
+    border: 1px solid #384459;
+    border-radius: 8px;
+    color: #c8d2df;
+    padding: 0 12px;
+}
+.copyButton:hover {
+    background-color: #c8d2df;
+    color: #2d2d2d;
+    border-color: #269abc;
+}
+
+.copyButton:hover,
+.copyButton:focus {
+    color: #2d2d2d;
+}
+
+.dxc-poisition-right {
+    float: right;
+}
+
+
+
+/************************************** Inicio CSS pagina Encerrar incident ************************************************/
+
+.dxc-label4 {
+    border-radius: 8px;
+    color: #384459;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+#dxc-textarea-causaraiz {
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 70px;
+    resize: none;
+}
+
+#dxc-textarea-acaoimediata {
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 70px;
+    resize: none;
+}
+
+#dxc-textarea-acaocorretiva {
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 70px;
+    resize: none;
+}
+
+#dxc-input-teste-encerrar-incident {
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 380px;
+    color: #c8d2df;
+    height: 40px;
+    resize: none;
+}
+
+#dxc-input-analista-encerrar-incident {
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 380px;
+    color: #c8d2df;
+    height: 40px;
+    resize: none;
+}
+
+#dxc-textarea-encerramento {
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 500px;
+    resize: none;
+}
+
+
+#dxc-textarea-observacao {
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    margin-top: 2px;
+    border-radius: 8px;
+    width: 380px;
+    color: #c8d2df;
+    height: 70px;
+    resize: none;
+}
+
+.dxc-float-botao-gerar {
+    float: right;
+    margin-top: -12px;
+}
+
+/************************************** Fim CSS pagina Encerrar incident ************************************************/
+
+/************************************** Inicio CSS pagina Bkp de Dados ************************************************/
+
+#dxc-text-anotacaoes-bkpDados {
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 160px;
+    resize: none;
+}
+
+
+
+/************************************** Inicio CSS pagina Bkp de Dados ************************************************/
+
+/************************************** Inicio CSS pagina Feriado ************************************************/
+
+#dxc-input-feriado {
+    height: 40px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #c8d2df;
+    width: 300px;
+}
+
+
+/************************************** Inicio CSS pagina Feriado ************************************************/
+
+/************************************** Inicio CSS pagina PcaaS com garantia ************************************************/
+
+#dxc-input-feriado {
+    height: 40px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #c8d2df;
+    width: 300px;
+}
+
+#dxc-input-serial {
+    height: 40px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #c8d2df;
+    width: 230px;
+}
+
+#dxc-input-etag {
+    height: 40px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #c8d2df;
+    width: 235px;
+}
+
+#dxc-text-anotacaoes-pcaasComBF {
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 250px;
+    resize: none;
+}
+
+/************************************** Inicio CSS pagina PcaaS com garantia ************************************************/
+
+/************************************** Inicio CSS pagina PcaaS Bateria ************************************************/
+
+.BateriaemGarantia{
+    display: none;
+}
+
+#dxc-text-anotacaoes-bateria{
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 200px;
+    resize: none;
+}
+
+#dxc-select-bateria{
+    height: 40px;
+    width: 350px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #c8d2df;
+    /*text-align: center;*/
+}
+
+
+
+/************************************** Fim CSS pagina PcaaS Bateria ************************************************/
+/************************************** inicio CSS pagina agendamento não cumprido ************************************************/
+
+#dxc-textarea-emailPadrao-NaoCumprido{
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 400px;
+    resize: none;
+}
+
+
+/************************************** Fim CSS pagina agendamento não cumprido ************************************************/
+
+#dxc-text-anotacaoes-3trikes{
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 95px;
+    resize: none;
+}
+
+/************************************** inicio CSS pagina BadUse ************************************************/
+
+#dxc-select-badUse{
+    height: 40px;
+    width: 350px;
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #c8d2df;
+    /*text-align: center;*/
+}
+
+#dxc-text-anotacaoes-badUsePcaaS{
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 180px;
+    resize: none;
+}
+
+#dxc-show-badUseOptions{
+
+}
+
+/************************************** Fim CSS pagina BadUse ************************************************/
+/************************************** inicio CSS pagina Pendencia EUC ************************************************/
+
+#dxc-text-anotacaoes-EUC{
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 240px;
+    resize: none;
+}
+
+
+#dxc-text-anotacaoes-flex{
+    background-color: #4F4F4F; /*#2d2d2d; */
+    border: 1px solid #384459;
+    border-radius: 8px;
+    width: 100%;
+    color: #c8d2df;
+    height: 240px;
+    resize: none;
+}
+
+
+/************************************** Fim CSS pagina Pendencia EUC ************************************************/
